@@ -5,15 +5,27 @@
  The choice should be made based on the value of another variable called isMale.
 */
 
-let isMale = false
-gender = isMale === true ? `male` : `female`
-console.log(gender)
+// let isMale = false
+// gender = isMale === true ? `male` : `female`
+// console.log(gender)
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let a = 0
+let b = 8
+if (a == 8 || b === 8) {
+  console.log(`One of the numbers is 8`)
+}
+
+if (a - b === 8) {
+  console.log(`a-b=8`)
+} else if (b - a === 8) {
+  console.log(`b-a=8`)
+} else {
+  console.log(`The subtraction of numbers does not equal 8`)
+}
 
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
