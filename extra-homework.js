@@ -74,23 +74,29 @@ if (length1 > length2) {
   console.log(string2 + ` is the longest word`)
 }
 
-/* WRITE YOUR ANSWER HERE */
-
 /*EX 7
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let value = `randomWord`
+console.log(Number.isInteger(value))
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
 
-/* WRITE YOUR ANSWER HERE */
+let givenNumber = 350
+let certainPercentage = 25
+let percentage = (givenNumber / 100) * certainPercentage
+console.log(certainPercentage + `% of ` + givenNumber + ` is ` + percentage)
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
 
+let numberToCheck = 16
+let remainder = numberToCheck % 2
+evenOrOdd = remainder === 0 ? `even` : `odd`
+console.log(`${numberToCheck} is an ${evenOrOdd} number`)
 /* WRITE YOUR ANSWER HERE */
