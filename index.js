@@ -63,6 +63,10 @@ ASSIGNMENT RULES
 
 // console.log(name1 === name2)
 
+// let johnLowerCase = name2.toLowerCase()
+
+// console.log(name1 === johnLowerCase)
+
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
@@ -96,9 +100,9 @@ ASSIGNMENT RULES
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
 
-let favouriteKDrama = `Vincenzo`
-let approval = `You have good taste!`
-let disapproval = `Girl, fix up`
-vibeCheck = favouriteKDrama === `Vincenzo` ? approval : disapproval
+// let favouriteKDrama = `Vincenzo`
+// let approval = `You have good taste!`
+// let disapproval = `Girl, fix up`
+// vibeCheck = favouriteKDrama === `Vincenzo` ? approval : disapproval
 
-console.log(vibeCheck)
+// console.log(vibeCheck)
